@@ -1,0 +1,22 @@
+
+    <!-- DataTables -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.css" />
+  	<!-- jQuery -->
+  	<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+  	<!-- DataTables -->
+  	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.js"></script> 
+  	
+  	
+<script>
+  $(document).ready(function(){
+    $('#table_id').dataTable({
+  	"bPaginate": true,
+  	"bLengthChange": true,
+  	"bFilter": true,
+  	"bSort": false,
+  	"bInfo": true,
+  	"bAutoWidth": true
+  
+    });
+  });
+</script>
